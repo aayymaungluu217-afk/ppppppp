@@ -7,10 +7,10 @@ import ddddocr
 import numpy as np
 from datetime import datetime, timedelta, timezone
 
-BOT_TOKEN = ''
-GITHUB_TOKEN = ''
-REPO_OWNER = ""
-REPO_NAME = ""
+BOT_TOKEN = '8856590905:AAFrd3rDsjOqX-Swj6p3VwpjVhqQN_GsGXA'
+GITHUB_TOKEN = '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'
+REPO_OWNER = "paingzin3521-ux"
+REPO_NAME = "TTAK"
 SUCCESS_CODE = asyncio.Queue()
 bot = AsyncTeleBot(BOT_TOKEN)
 user_data = {}
@@ -362,7 +362,7 @@ async def handle_key(message):
             " သင်၏ key ကို registered မလုပ်ရသေးပါ။"
         )
 
-ADMIN_ID = ""
+ADMIN_ID = "8363372270"
 
 @bot.message_handler(commands=['listkeys'])
 async def listkeys(message):
@@ -902,7 +902,7 @@ def format_progress(checked, total=None, speed=0, found=0, retries=0):
         f"📊Status : running\n"
     )
 
-BATCH_SIZE = 5000
+BATCH_SIZE = 8000
 
 def _captcha_entry(chat_id):
     if chat_id not in captcha_state:
