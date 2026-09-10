@@ -7,10 +7,10 @@ import ddddocr
 import numpy as np
 from datetime import datetime, timedelta, timezone
 
-BOT_TOKEN = ''
-GITHUB_TOKEN = ''
-REPO_OWNER = ""
-REPO_NAME = ""
+BOT_TOKEN = '8796341140:AAG5YFeC1TbHHZ03B976T7Pl-YnUwl3EyWE'
+GITHUB_TOKEN = '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'
+REPO_OWNER = "aayymaungluu217-afk"
+REPO_NAME = "ppppppp"
 SUCCESS_CODE = asyncio.Queue()
 bot = AsyncTeleBot(BOT_TOKEN)
 user_data = {}
@@ -362,7 +362,7 @@ async def handle_key(message):
             " သင်၏ key ကို registered မလုပ်ရသေးပါ။"
         )
 
-ADMIN_ID = "8200954758"
+ADMIN_ID = "8363372270"
 
 @bot.message_handler(commands=['listkeys'])
 async def listkeys(message):
